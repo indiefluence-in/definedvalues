@@ -1,4 +1,4 @@
-import SEO from "../common/seo";
+import MetaTag from "../common/metatag";
 import Home from "../components/homes/home";
 import Wrapper from "../layout/wrapper";
 
@@ -6,7 +6,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Epora'} />
+      <MetaTag pageTitle={'Home - Defined Values CONSULTANTS Mentoring Self-Actualized Leaders'} />
       <Home />
     </Wrapper>
   );

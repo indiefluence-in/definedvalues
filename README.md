@@ -1,2 +1,2 @@
-website link [E-pora-next.js](https://e-pora-next.vercel.app/) 
-Facebook link [Facebook.com](https://www.facebook.com/themepure.net/) 
+website link [for reference](https://e-pora-next.vercel.app/) 
+website link [Content](http://definedvalues.org/)

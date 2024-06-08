@@ -1,12 +1,12 @@
 import React from 'react';
-import SEO from '../common/seo';
+import MetaTag from '../common/metatag';
 import Blog from '../components/blog';
 import WrapperFour from '../layout/wrapper-4';
 
 const index = () => {
     return (
         <WrapperFour>
-           <SEO pageTitle={"Blog"} /> 
+           <MetaTag pageTitle={"Blog"} /> 
            <Blog />
         </WrapperFour>
     );

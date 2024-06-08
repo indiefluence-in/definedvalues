@@ -1,0 +1,32 @@
+{
+  "name": {
+    "hostname": "http://definedvalues.org/",
+    "twitterUsername": ""
+  },
+  "home": {
+    "pageTitle": "IndieFluence - Home | Digital marketing company",
+    "pageDescription": "Indiefluence is a digital marketing company specializing in brand growth, social media, and unique content creation to engage audiences effectively.",
+    "metaImage": "/logo/indie-whatsapp.svg",
+    "metaImageAlt": "IndieFluence Logo"
+  },
+  "about": {
+    "pageTitle": "IndieFluence - About Us",
+    "pageDescription": "Indiefluence connects local creative talents with global brands, crafting digital experiences that are impactful, memorable, and bridge cultural gaps.",
+    "metaImageAlt": "IndieFluence office image"
+  },
+  "services": {
+    "pageTitle": "IndieFluence - Services",
+    "pageDescription": "IndieFluence Digital Services",
+    "metaImageAlt": "IndieFluence Logo"
+  },
+  "contact": {
+    "pageTitle": "IndieFluence - Contact Us",
+    "pageDescription": "Got questions? (Koi Shaq?)",
+    "metaImageAlt": "IndieFluence Logo"
+  },
+  "notfound": {
+    "pageTitle": "IndieFluence - 404",
+    "pageDescription": "This is the 404 page. You've been redirected here because the page you requested does not exist!",
+    "metaImageAlt": "IndieFluence Logo"
+  }
+}
