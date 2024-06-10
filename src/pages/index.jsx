@@ -1,4 +1,5 @@
 import MetaTag from "../common/metatag";
+import { metaData } from "../data/metadata";
 import Home from "../components/homes/home";
 import Wrapper from "../layout/wrapper";
 
@@ -6,7 +7,7 @@ import Wrapper from "../layout/wrapper";
 const index = () => {
   return (
     <Wrapper>
-      <MetaTag pageTitle={'Home - Defined Values CONSULTANTS Mentoring Self-Actualized Leaders'} />
+      <MetaTag title={metaData.home.title} />
       <Home />
     </Wrapper>
   );
