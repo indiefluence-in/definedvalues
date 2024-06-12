@@ -38,12 +38,6 @@ const  HeaderThree = () => {
                       <nav>
                         <ul>
                           <li>
-                            <a href="#">
-                              Categories
-                              <span>
-                                <i className="arrow_carrot-down"></i>
-                              </span>
-                            </a>
                             <ul className="sub-menu">
                               {category_data.map((item, i) => (
                                 <li key={i}>
