@@ -1,14 +1,8 @@
-const menu_data = [
+const menudata = [
   {
     id: 1,
     title: "Home",
     link: "/",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/", title: "Home Style 1" },
-      { link: "/home-2", title: "Home Style 2" },
-      { link: "/home-3", title: "Home Style 3" },
-    ],
   },
   {
     id: 2,
@@ -59,4 +53,4 @@ const menu_data = [
   },
   
 ];
-export default menu_data;
+export default menudata;
