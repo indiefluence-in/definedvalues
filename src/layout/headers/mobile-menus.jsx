@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 // internal
-import menu_data from "./menu-data";
+import menu_data from "../../data/menuData";
 
 const MobileMenus = () => {
   const [navTitle, setNavTitle] = useState("");

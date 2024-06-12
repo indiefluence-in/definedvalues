@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import menudata from "./menu-data";
+import menudata from "../../data/menuData";
 
 const NavMenu = () => {
   return (
