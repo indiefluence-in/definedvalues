@@ -13,7 +13,7 @@ const category_data = [
   { title: "Francy Medium" },
 ];
 
-const HeaderThree = () => {
+const  HeaderThree = () => {
   const {sticky} = useSticky()
   const [isActive, setIsActive] = useState(false);
 
@@ -39,7 +39,7 @@ const HeaderThree = () => {
                         <ul>
                           <li>
                             <a href="#">
-                              Categorie
+                              Categories
                               <span>
                                 <i className="arrow_carrot-down"></i>
                               </span>

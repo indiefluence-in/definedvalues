@@ -37,7 +37,7 @@ const {sticky} = useSticky()
                         <div className="header-cat-menu ml-40">
                            <nav>
                               <ul>
-                                 <li><a href="#"> Categorie <span><i className="arrow_carrot-down"></i></span></a>
+                                 <li><a href="#"> Categories <span><i className="arrow_carrot-down"></i></span></a>
                                     
                                  <ul className="sub-menu">
                                     {category_data.map((item, i) => 
