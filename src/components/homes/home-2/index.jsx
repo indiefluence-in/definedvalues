@@ -11,6 +11,7 @@ import CourseArea from "./course-area";
 import HeroSlider from "./hero-slider";
 import TestimonialAreaTwo from "./testimonial-area-2";
 import VideoArea from "../../../common/video-area";
+import OurCourse from "../home-3/our-course";
 
 const HomeTwo = () => {
   return (
@@ -19,7 +20,7 @@ const HomeTwo = () => {
       <BrandArea style_2={true} />
       <AboutArea />
       <CategoryArea />
-      <CourseArea />
+      <OurCourse />
       <VideoArea />
       <CounterArea style_counter={true} />
       <ChooseArea style_2={true} />
