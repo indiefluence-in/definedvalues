@@ -44630,18 +44630,18 @@ i[class*=" fi-ss-"]:before, i[class^=fi-ss-]:before, span[class*=fi-ss-]:before,
   */
   --tp-common-white: #ffffff;
   --tp-common-black: #000;
-  --tp-heading-primary: #050D36;
-  --tp-heading-secondary: #FF6652;
-  --tp-heading-b-light: #050D36;
+  --tp-heading-primary: #19497F;
+  --tp-heading-secondary: #59C3C3;
+  --tp-heading-b-light: #EBEBEB;
   --tp-grey-1: #F8FAFA;
-  --tp-grey-2: #F5F6F8;
-  --tp-text-body: #000;
+    --tp-grey-2: #F5F6F8;
+    --tp-text-body: #292930;
   --tp-text-1: #000;
   --tp-text-2: #777C90;
-  --tp-theme-1: #FF6652;
-  --tp-theme-2: #F7F8F9;
+  --tp-theme-1: #19497F;
+  --tp-theme-2: #CAD2C5;
   --tp-border-1: #fff;
-  --tp-border-2: #245D51;
+  --tp-border-2: #CAD2C5;
   /**
   @font weight declaration
   */
