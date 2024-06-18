@@ -6,44 +6,42 @@ const menudata = [
   },
   {
     id: 2,
-    title: "Pages",
+    title: "About Us",
     link: "/about",
     has_dropdown: true,
     sub_menus: [
-      { link: "/about", title: "About" },
-      { link: "/contact", title: "Contact" },
-      { link: "/check-out", title: "Check Out" },
-      { link: "/faq", title: "FAQ" },
-      { link: "/register", title: "Register" },
-      { link: "/sign-in", title: "Sign In" },
+      { link: "/about", title: "Vision, Mission, and Objectives" },
+      { link: "/contact", title: "Core Team" },
+      { link: "/check-out", title: "Media Coverage" },
+      { link: "/faq", title: "Awards and Recognitions" },
     ],
   },
   {
     id: 3,
-    title: "Instructor",
+    title: "Events",
     link: "/instructor",
     has_dropdown: true,
     sub_menus: [
-      { link: "/instructor", title: "Instructor" },
-      { link: "/instructor-profile", title: "Instructor Profile" },
+      { link: "/instructor", title: "Registrations" },
+      { link: "/instructor-profile", title: "Gallery" },
+      { link: "/instructor-profile", title: "Defined Values Trainers Network Summit 2022" },
     ],
   },
   {
     id: 4,
-    title: "Course",
+    title: "Products and Services",
     link: "/course-grid",
     has_dropdown: true,
     sub_menus: [
-      { link: "/course-grid", title: "Course Grid" },
-      { link: "/course-list", title: "Course List" },
-      { link: "/course-details", title: "Course Details" },
+      { link: "/course-grid", title: "Self-Actualized Leadership Development Program (SALDP)" },
+      { link: "/course-list", title: "Code of Citizen's Conduct (Book)" },
     ],
   },
   {
     id: 5,
-    title: "Blog",
+    title: "Downloads",
     link: "/blog",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menus: [
       { link: "/blog", title: "Blog Sidebar" },
       { link: "/blog-grid", title: "Blog Grid" },
@@ -51,6 +49,17 @@ const menudata = [
       { link: "/blog-details", title: "Blog Details" },
     ],
   },
-  
+  {
+    id: 6,
+    title: "Contact Us",
+    link: "/blog",
+    has_dropdown: false,
+    sub_menus: [
+      { link: "/blog", title: "Blog Sidebar" },
+      { link: "/blog-grid", title: "Blog Grid" },
+      { link: "/blog-masonry", title: "Blog Masonry" },
+      { link: "/blog-details", title: "Blog Details" },
+    ],
+  },
 ];
 export default menudata;

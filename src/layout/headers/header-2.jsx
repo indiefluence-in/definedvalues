@@ -34,35 +34,6 @@ const {sticky} = useSticky()
                               <img src="/assets/img/logo/logo-black.png" alt="logo" />
                            </Link>
                         </div>
-                        <div className="header-cat-menu ml-40">
-                           <nav>
-                              <ul>
-                                 <li><a href="#"> Categories <span><i className="arrow_carrot-down"></i></span></a>
-                                    
-                                 <ul className="sub-menu">
-                                    {category_data.map((item, i) => 
-                                    <li key={i}>
-                                    <Link href="/course-grid">{item.title}</Link>
-                                    </li>
-                                    )}
-                                 </ul>
-                                 
-                                 </li>
-                              </ul>
-                           </nav>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="col-xxl-5 col-lg-6 col-md-7">
-                     <div className="header-right header-right-box">
-                        <div className="header-search-box">
-                           <form onClick={(e) => e.preventDefault()}>
-                              <div className="search-input">
-                                 <input type="Email" placeholder="What you want to learn?" />
-                                 <button className="header-search-btn"><i className="fi fi-rs-search mr-5"></i> Search Now</button>
-                              </div>
-                           </form>
-                        </div>
                      </div>
                   </div>
                </div>
@@ -77,15 +48,6 @@ const {sticky} = useSticky()
                      <nav id="mobile-menu">
                         <NavMenu />
                      </nav>
-                  </div>
-               </div>
-               <div className="col-xxl-3 col-xl-3 col-lg-6 d-flex align-items-center justify-content-end">
-                  <div className="header-meta-green">
-                     <ul>
-                        <li><Link href="/sign-in"><i className="fi fi-rr-user"></i></Link></li>
-                        <li><Link href="/cart"><i className="fi fi-rr-shopping-bag"></i></Link></li>
-                        <li><a href="#" className="tp-menu-toggle d-xl-none"><i className="icon_ul"></i></a></li>
-                     </ul>
                   </div>
                </div>
             </div>

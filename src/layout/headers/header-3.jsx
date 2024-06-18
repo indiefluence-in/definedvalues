@@ -57,27 +57,6 @@ const  HeaderThree = () => {
                       <NavMenu />
                     </nav>
                   </div>
-                  <div className="header-right d-flex align-items-center">
-                    <div className="header-meta header-meta-white">
-                      <ul>
-                        <li>
-                          <Link href="/sign-in" className="d-none d-md-block">
-                            <i className="fi fi-rr-user"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/cart" className="d-none d-md-block">
-                            <i className="	 fi fi-rr-shopping-bag"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <a href="#" onClick={() => setIsActive(true)} className="tp-menu-toggle d-xl-none">
-                            <i className="icon_ul"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
