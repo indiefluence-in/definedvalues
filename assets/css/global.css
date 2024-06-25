@@ -177,7 +177,7 @@ span {
   border-radius: 50%;
 }
 .book{
-  color: #EB9309;
+  color: white;
   transition: 6.8s;
   width: 32px;
   height: 12px;
@@ -242,7 +242,7 @@ span {
 .preloader-middle{
   width: 32px;
   height: 12px;
-  border: 4px solid #EB9309;
+  border: 4px solid white;
   border-top: 0;
   border-radius: 0 0 9px 9px;
   transform: translateY(2px);
@@ -301,7 +301,7 @@ span {
 }
 .book ul li:nth-child(1) {
   animation-name: page-1;
-  background: #EB9309;
+  background: white;
 }
 .book ul li:nth-child(2) {
   animation-name: page-2;
@@ -353,7 +353,7 @@ span {
 }
 .book ul li:nth-child(18) {
   animation-name: page-18;
-  background: #EB9309;
+  background: #fefefe;
 }
 @keyframes page-1{
   5.86% {
@@ -628,9 +628,9 @@ span {
 
 .btn-3{
   background: transparent;
-  border: 1px solid #EB9309;
+  border: 1px solid rgb(51, 51, 200);
   border-radius: 50px;
-  color: #EB9309;
+  color: rgb(51, 51, 200);
 }
 
 .btn-3 span{

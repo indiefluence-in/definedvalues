@@ -37,7 +37,7 @@
 
 .main-menu .navigation > li > .active, .style-three .main-menu .navigation > li > .active{
   position: relative;
-  color: #EB9309;
+  color: rgb(48,48,152);
 }
 
 .main-menu .navigation > li > ul > li .active{
@@ -50,11 +50,11 @@
 }
 
 .handle-preloader.home-1{
-	background: #7FB432;;
+	background: #21293B;;
 }
 
 .sticky-header{
-  background: #21293B;
+  background: #fdfdfe;
 }
 .style-three .sticky-header .main-menu .navigation > li a{
   color: #ffffff;
