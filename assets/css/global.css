@@ -582,7 +582,7 @@ span {
 	color: #ffffff;
 	text-transform: uppercase;
 	transition: .5s;
-  background: #7FB432;
+  background: rgb(48,48,152);
 }
 
 .btn-1 span {
@@ -590,11 +590,11 @@ span {
 	display: block;
 	width: 0;
 	height: 0;
-  color: #ffffff;
+  color: black;
 	border-radius: 50%;
 	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
 	transform: translate(-50%, -50%);
-  background: #EB9309;
+  background: rgb(254, 254, 254);
 	z-index: -1;
 }
 
@@ -605,17 +605,17 @@ span {
 }
 
 .btn-1:hover {
-    color: #ffffff !important;
+    color: #060000 !important;
     z-index: 1;
     position: relative;
 }
 
 .btn-2{
-  background: #EB9309;
+  background: rgb(48,48,152);
 }
 
 .btn-2 span{
-  background: #7FB432;
+  background: rgb(48,48, 152);
 }
 
 .news-btn{
@@ -623,27 +623,27 @@ span {
 }
 
 .news-btn span{
-  background: #7FB432;
+  background: rgb(48,48, 152);
 }
 
 .btn-3{
   background: transparent;
-  border: 1px solid rgb(51, 51, 200);
+  border: 1px solid rgb(48,48, 152);
   border-radius: 50px;
-  color: rgb(51, 51, 200);
+  color: rgb(48,48,152);
 }
 
 .btn-3 span{
   display: inline-block;
-  background: #EB9309;
-  border: 1px solid #EB9309;
+  background: rgb(48,48,152);
+  border: 1px solid rgb(48,48, 152);
   border-radius: 50px;
   z-index: -1;
 }
 
 .home-2-header-right-btn .btn-1 {
   text-transform: capitalize;
-  border: 2px solid #EB9309;
+  border: 2px solid rgb(48,48, 152);
   padding: 13px 48px;
 }
 
@@ -693,7 +693,7 @@ span {
 
 .align-title h5{
   position: relative;
-  color: #EB9309;
+  color: rgb(48,48,152);
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 18px;

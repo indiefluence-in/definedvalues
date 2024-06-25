@@ -44,6 +44,7 @@
                         Home-Page-One
 ==================================================================== */
 /* header starts */
+
 .main-header{
   position:absolute;
   left:0px;
@@ -1213,6 +1214,17 @@ div#offcanvasTop {
 /* banner ends */
 
 /* features */
+
+.features-icon {
+  font-size: 30px; /* Adjust size as needed */
+  color: #010113; /* Adjust color as needed */
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
 .fearures-wrapper {
   background: #FFFFFF;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
@@ -1256,6 +1268,7 @@ div#offcanvasTop {
 }
 .features-icon-4{
   background: rgba(236, 74, 78, 0.1);
+  margin-bottom: 10px;
 }
 .features-info a{
   display: inline-block;
@@ -3578,6 +3591,7 @@ margin-bottom: 50px;
 
 /* testimonial3 */
 .testimonial_section_home_three{
+  overflow-x: hidden;
   padding-top: 120px;
   padding-bottom: 60px;
   background: #FEFAF6;
@@ -3606,6 +3620,7 @@ margin-bottom: 50px;
   padding: 14px 48px;
 }
 .testimonial3-slider-content{
+  height: 290px;
   background: #FFFFFF;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
   padding: 40px 70px 40px 30px;
