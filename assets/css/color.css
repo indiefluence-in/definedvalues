@@ -26,13 +26,13 @@
 }
 
 .home-two-header .sticky-header .main-menu .navigation > li > a:hover{
-  color: #EB9309 !important;
+  color: rgb(48,48,152) !important;
 }
 
 .main-menu .navigation > li > a:hover,
 .main-menu .navigation > li > ul > li > a:hover,
 .main-menu .navigation > li > .megamenu li > a:hover{
-	color: #EB9309 !important;
+	color: rgb(48,48,152) !important;
 }
 
 .main-menu .navigation > li > .active, .style-three .main-menu .navigation > li > .active{
@@ -56,11 +56,9 @@
 .sticky-header{
   background: #fdfdfe;
 }
-.style-three .sticky-header .main-menu .navigation > li a{
-  color: #ffffff;
-}
+
 .style-three .sticky-header .main-menu .navigation > li .active{
-  color: #EB9309;
+  color: rgb(48,48,152);
 }
 .style-three .sticky-header .main-menu .navigation > li ul li .active{
   color: #21293B;

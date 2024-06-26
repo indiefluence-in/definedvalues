@@ -613,6 +613,10 @@ span {
 .btn-2{
   background: rgb(48,48,152);
 }
+.btn-2-span:hover{
+  background: rgb(254, 254, 255);
+  color: rgb(48,48, 152);
+}
 
 .btn-2 span{
   background: rgb(48,48, 152);
@@ -621,6 +625,49 @@ span {
 .news-btn{
   background: rgb(0, 0, 15);
   color: white;;
+}
+
+.btn-1 {
+  font-family: circularStd;
+	position: relative;
+	display: inline-flex;
+	overflow: hidden;
+	padding: 14px 37px;
+  border-radius: 50px;
+	text-align: center;
+	z-index: 1;
+	font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+	color: #ffffff;
+	text-transform: uppercase;
+	transition: .5s;
+  background: rgb(48,48,152);
+}
+
+.btn-1 span {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+  color: black;
+	border-radius: 50%;
+	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+	transform: translate(-50%, -50%);
+  background: rgb(254, 254, 254);
+	z-index: -1;
+}
+
+.btn-2:hover span {
+	width: 225%;
+	height: 562.5px;
+  z-index: -1;
+}
+
+.btn-2:hover {
+    color: #060000 !important;
+    z-index: 1;
+    position: relative;
 }
 
 .news-btn span{
@@ -632,12 +679,13 @@ span {
   background: transparent;
   border: 1px solid rgb(48,48, 152);
   border-radius: 50px;
-  color: rgb(48,48,152);
+  background-color: rgb(48,48, 152);
+  color: rgb(253, 253, 253);
 }
 
 .btn-3 span{
   display: inline-block;
-  background: rgb(48,48,152);
+  background: rgb(248, 248, 249);
   border: 1px solid rgb(48,48, 152);
   border-radius: 50px;
   z-index: -1;
@@ -664,7 +712,7 @@ span {
   color: #ffffff !important;
 }
 .yellow-btn{
-  background: #EB9309;
+  background: rgb(48, 48, 152);
 }
 .blue-btn{
   background: #1245F8;
@@ -718,7 +766,7 @@ span {
 
 .align-title h6{
   position: relative;
-  color: #EB9309;
+  color: rgb(48, 48, 152);
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 18px;
@@ -741,7 +789,7 @@ span {
 
 .common-title h5{
   position: relative;
-  color: #EB9309;
+  color: rgb(48, 48, 152);
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 18px;

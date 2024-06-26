@@ -353,7 +353,7 @@
     ========================*/
     /* header */
     .menu-area .mobile-nav-toggler .icon-bar{
-      background-color: rgb(55, 80, 224);
+      background-color: #06062a;
     }
 
     .header_top_right ul{
@@ -1505,7 +1505,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 25px;
-    color: #EB9309;
+    color: rgb(48, 48, 152);
     margin-bottom: 50px;
     padding-left: 50px;
   }

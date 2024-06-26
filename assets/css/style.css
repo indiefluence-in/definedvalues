@@ -1246,7 +1246,7 @@ div#offcanvasTop {
 }
 .icon-i-01{
   font-size: 32px !important;
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .icon-i-02{
   color: #1245f8;
@@ -1295,13 +1295,13 @@ div#offcanvasTop {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: 2px solid #EB9309;
-  background: #EB9309;
+  border: 2px solid rgb(48, 48, 152);
+  background: rgb(48, 48, 152);
   animation: color1 1s linear infinite alternate-reverse;
 }
 @keyframes color1 {
   from {background-color: #ffffff;}
-  to {background-color: #EB9309;}
+  to {background-color: rgb(48, 48, 152);}
 }
 .about-left-container::after {
   content: "";
@@ -1353,7 +1353,7 @@ div#offcanvasTop {
 }
 .about-right-list ul li::before{
   content: '\2713';
-  color: #EB9309;
+  color: rgb(48, 48, 152);
   margin-right: 10px;
 }
 .about-right-button-area{
@@ -1499,7 +1499,7 @@ div#offcanvasTop {
   position: relative;
   width: 0%;
   height: 100%;
-  background: #EB9309;
+  background: rgb(48, 48, 152);
   border-radius: 10px;
   position: relative;
   transition: all 5s;
@@ -1533,7 +1533,7 @@ div#offcanvasTop {
   right: -10px;
 }
 .progress .progress-bar span::after{
-  background: #EB9309;
+  background: rgb(48, 48, 152);
 }
 .progress .progress-bar1 span::after{
   background: #1245F8;
@@ -1576,7 +1576,7 @@ div#offcanvasTop {
   font-weight: 500;
   font-size: 18px;
   line-height: 29px;
-  color: #EB9309;
+  color: rgb(48, 48, 152);
 }
 .featured-info-go{
   color: #616161 !important;
@@ -1750,7 +1750,7 @@ button:focus:not(:focus-visible) {
   font-weight: 700;
   font-size: 36px;
   line-height: 68px;
-  color: #EB9309;
+  color: rgb(48, 48, 152);
 }
 .volunteer3 .volunteer-content span{
   font-size: 48px;
@@ -1915,7 +1915,7 @@ button:focus:not(:focus-visible) {
 
 a.hv-popup-link{
     position: relative;
-    background: #EB9309;
+    background: rgb(48, 48, 152);
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -1928,7 +1928,7 @@ a.hv-popup-link{
 a.hv-popup-link:after{
     content: '';
     position: absolute;
-    border: 30px solid #EB9309;
+    border: 30px solid rgb(48, 48, 152);
     border-radius: 50%;
     top: -20px;
     left: -20px;
@@ -2022,7 +2022,7 @@ a.hv-popup-link:after{
 }
 .read-more .svg-inline--fa{
   font-size: 14px;
-  color: #EB9309 !important;
+  color: rgb(48, 48, 152) !important;
   margin-left: 3px;
 }
 .right-blog-content{
@@ -2333,7 +2333,7 @@ footer.main__footer .f-love3{
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
-  color: #EB9309;
+  color: rgb(48, 48, 152);
   margin-bottom: 50px;
   padding-left: 50px;
 }
@@ -2360,7 +2360,7 @@ footer.main__footer .f-love3{
 .home-3-banner .banner-content .header-link-btn .btn-3 {
   text-transform: capitalize;
   padding: 14px 37px;
-  border: 2px solid #eb9309;
+  border: 2px solid rgb(48, 48, 152);
 }
 .home-3-banner .banner-content .header-link-btn .btn-3 
 .banner-right{
@@ -2442,7 +2442,7 @@ footer.main__footer .f-love3{
   right: 0;
 }
 .features-content-3{
-  background: #EB9309;
+  background: rgb(48, 48, 152);
 }
 .features-content-4{
   background: #7FB432;
@@ -2511,8 +2511,8 @@ footer.main__footer .f-love3{
   height: 10px;
 }
 .about-left-wrapper-content::before{
-  border: 1px solid #eb9309;
-  background: #eb9309;
+  border: 1px solid rgb(48, 48, 152);
+  background: rgb(48, 48, 152);
   top: 30px;
   left: 30px;
   animation: color1 1s linear infinite alternate-reverse;
@@ -2632,7 +2632,7 @@ footer.main__footer .f-love3{
   border-radius: 20px;
 }
 .yellow-bar .progress-bar{
-  background: #EB9309;
+  background: rgb(48, 48, 152);
   border-radius: 20px;
 }
 .project-slide{
@@ -2656,7 +2656,7 @@ footer.main__footer .f-love3{
   line-height: 61px;
   border-radius: 50%;
   text-align: center;
-  border: 1px solid #EB9309;
+  border: 1px solid rgb(48, 48, 152);
   transition: 0.3s;
 }
 .project-slide .owl-next {
@@ -2668,12 +2668,12 @@ footer.main__footer .f-love3{
   line-height: 61px;
   border-radius: 50%;
   text-align: center;
-  border: 1px solid #EB9309;
+  border: 1px solid rgb(48, 48, 152);
   transition: 0.3s;
 }
 .project-slide .owl-next:hover, .project-slide .owl-prev:hover{
-  background: #eb9309;
-  border: 1px solid #EB9309;
+  background: rgb(48, 48, 152);
+  border: 1px solid rgb(48, 48, 152);
 } 
 .project-slide .owl-next:hover .svg-inline--fa, .project-slide .owl-prev:hover .svg-inline--fa{
   color: #ffffff;
@@ -2830,6 +2830,34 @@ footer.main__footer .f-love3{
   left: 30px;
   z-index: 2;
 }
+
+.footer_column .dropdown {
+  position: relative;
+}
+
+.footer_column .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 60%;  /* Positioning the dropdown to the right */
+  top: 0;      /* Aligning the dropdown top with the parent top */
+  background-color: #06062a;
+  box-shadow: rgba(48, 48, 152, 0.6) 0 5px 15px ; /* Updated shadow color */
+  width: 200px; /* Set a fixed width for the dropdown */
+  z-index: 1000;
+}
+
+.footer_column .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.footer_column .links_list a {
+  display: block;
+  color: #333;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
 .popular-content-info h5{
   font-weight: 500;
   font-size: 36px;
@@ -2928,7 +2956,7 @@ footer.main__footer .f-love3{
 }
 .testimonial-left-content:hover{
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  border-left: 5px solid #eb9309;
+  border-left: 5px solid rgb(48, 48, 152);
 }
 .testimonial-info h6{
   font-weight: 500;
@@ -2971,7 +2999,7 @@ footer.main__footer .f-love3{
   transition: 0.3s;
 }
 .testimonial-slider .owl-prev:hover .svg-inline--fa, .testimonial-slider .owl-next:hover .svg-inline--fa{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .testimonial-slider .owl-prev{
   position: absolute;
@@ -3045,7 +3073,7 @@ footer.main__footer .f-love3{
   opacity: 0;
 }
 .video2-title a.hv-popup-link .svg-inline--fa{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .video2-title h3{
   font-weight: 700;
@@ -3161,10 +3189,10 @@ footer.main__footer .f-love3{
 .header__right .blank{
   width: 1px;
   height: 30px;
-  background: #EB9309;
+  background: rgb(48, 48, 152);
 }
 .style-three .header__right .btn-1 {
-  border: 2px solid #EB9309;
+  border: 2px solid rgb(48, 48, 152);
   padding: 12px 47px;
   text-transform: capitalize;
 }
@@ -3320,7 +3348,7 @@ margin-bottom: 50px;
 .features3-icon i{
   font-size: 50px !important;
   transition: 0.3s;
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .home3-wrapper h6{
   font-weight: 500;
@@ -3350,7 +3378,7 @@ margin-bottom: 50px;
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  background: #EB9309;
+  background: rgb(48, 48, 152);
 }
 .home3-about-image{
   position: relative;
@@ -3366,7 +3394,7 @@ margin-bottom: 50px;
   width: 100%;
   height: 100%;
   background: transparent;
-  border: 1px solid #eb9309;
+  border: 1px solid rgb(48, 48, 152);
   border-radius: 185px 185px 0px 0px;
   z-index: -1;
 }
@@ -3511,7 +3539,7 @@ margin-bottom: 50px;
   line-height: 47px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #eb9309;
+  border: 1px solid rgb(48, 48, 152);
   cursor: pointer;
 }
 .featured3 .owl-next{
@@ -3523,12 +3551,12 @@ margin-bottom: 50px;
   line-height: 47px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #eb9309;
+  border: 1px solid rgb(48, 48, 152);
   cursor: pointer;
 }
 .featured3 .owl-next:hover{
   background: transparent;
-  border: 1px solid #eb9309;
+  border: 1px solid rgb(48, 48, 152);
 }
 .featured3 .owl-next .svg-inline--fa, .featured3 .owl-prev .svg-inline--fa{
   font-size: 24px;
@@ -3555,7 +3583,7 @@ margin-bottom: 50px;
   background: #FFFFFF;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border-left: 5px solid #eb9309;
+  border-left: 5px solid rgb(48, 48, 152);
   margin-left: 7%;
 }
 .team3-info h6{
@@ -3622,7 +3650,7 @@ margin-bottom: 50px;
   gap: 11px;
 }
 .testimonial3-reting ul li .svg-inline--fa{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .testimonial3-body{
   margin: 30px 0;
@@ -3836,7 +3864,7 @@ about us
 }
 
 .about-video-content a .svg-inline--fa {
-  color: #EB9309;
+  color: rgb(48, 48, 152);
   font-size: 24px;
 }
 .about-video-content a.hv-popup-link{
@@ -3876,7 +3904,7 @@ about us
 }
 .about-features .features-icon i{
   font-size: 42px !important;
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   transition: 0.3s;
 }
 .about-features .features-info a {
@@ -3997,7 +4025,7 @@ causes single
   margin-bottom: 0;
 }
 .causes-single-raised p span{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 /* tab */
 .causes-details-tab .nav-tabs {
@@ -4011,10 +4039,10 @@ causes single
   color: #1F2230;
 }
 .causes-details-tab .nav-link:hover, .nav-link:focus {
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .causes-details-tab .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: #eb9309;
+  color: rgb(48, 48, 152)
 }
 .causes-details-tab .nav-tabs .nav-link {
   margin-bottom: 0px;
@@ -4096,7 +4124,7 @@ causes single
   position: absolute;
   top: 6px;
   right: 10px;
-  background: #eb9309;
+  background: rgb(48, 48, 152);
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
   border-radius: 50px;
   padding: 10px 20px;
@@ -4128,7 +4156,7 @@ causes single
   font-family: 'Open Sans';
 }
 .causes-details-right-list ul li a:hover span, .causes-details-right-list ul li a:hover .svg-inline--fa{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .causes-details-right-list ul li a .svg-inline--fa{
   color: #1F2230;
@@ -4200,8 +4228,8 @@ causes single
   border: 1px solid #F1F1F1;
 }
 .paigenation ul li a:hover{
-  border: 1px solid #eb9309;
-  background: #eb9309;
+  border: 1px solid rgb(48, 48, 152);
+  background: rgb(48, 48, 152);
   color: #ffffff !important;
 }
 .paigenation ul li a .svg-inline--fa{
@@ -4283,12 +4311,12 @@ causes single
 .become-a-volunteer-left-content ul li::before{
   content: '\2713';
   margin-right: 10px;
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   font-size: 12px;
   font-weight: 600;
   padding: 1px 4px;
   border-radius: 50%;
-  border: 2px solid #eb9309;
+  border: 2px solid rgb(48, 48, 152);
 }
 .become-a-volunteer-right-content{
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -4321,7 +4349,7 @@ causes single
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
-  background: #F89B12;
+  background: rgb(48,48,152);
   border-radius: 50px;
   margin-top: 30px;
   transition: 0.3s;
@@ -4330,7 +4358,8 @@ causes single
   padding: 14px 57px;
 }
 .submit-btn:hover{
-  background: #7fb432;
+  background: #fafbfa;
+  color: rgb(48,48,152);
 }
 /* become a volunteer */
 
@@ -4370,7 +4399,7 @@ causes single
   width: 100%;
 }
 .datepiker-icon .svg-inline--fa {
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   font-size: 22px;
 }
 .event-venue{
@@ -4400,7 +4429,7 @@ causes single
 }
 .event-venue-list ul li::before{
   content: '\2713';
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   margin-right: 15px;
   font-weight: 600;
 }
@@ -4461,7 +4490,7 @@ causes single
   margin-top: 20px;
 }
 .blog-page-content a .svg-inline--fa{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   margin-left: 5px;
 }
 /* blog page */
@@ -4481,7 +4510,7 @@ causes single
   color: #616161;
 }
 .blog-single-info ul li .svg-inline--fa{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   margin-right: 5px;
   font-size: 18px;
 }
@@ -4493,7 +4522,7 @@ causes single
   padding: 30px 46px;
   background: rgba(248, 155, 18, 0.1);
   border-radius: 5px;
-  border-left: 5px solid #eb9309;
+  border-left: 5px solid rgb(48, 48, 152);
 }
 .blog-single-box span{
   display: inline-block;
@@ -4582,7 +4611,7 @@ causes single
   margin-bottom: 50px;
 }
 .contact-icon i{
-  color: #eb9309;
+  color: rgb(48, 48, 152);
   font-size: 53px;
 }
 .contact-address h6{

@@ -34,7 +34,7 @@
 }
 .icon-i-01:before {
   content: "\e900";
-  color: #eb9309;
+  color: rgb(48, 48, 152);
 }
 .icon-i-02:before {
   content: "\e901";
