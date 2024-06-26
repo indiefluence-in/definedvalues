@@ -64,7 +64,7 @@ a{
 }
 
 a:hover{
-  color: #EB9309 !important;
+  color: rgb(48, 48, 152) !important;
   text-decoration:none;
   outline:none;
 }
