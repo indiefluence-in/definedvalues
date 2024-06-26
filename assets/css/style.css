@@ -236,7 +236,7 @@
   position:absolute;
   top:100%;
   width:250px;
-  background: #7FB432;
+  background: #fff;
   z-index:100;
   -webkit-transition: all 0.2s ease-out;
     transition: all 0.5s ease-out;
@@ -259,7 +259,7 @@
   position:relative;
   width:100%;
   padding: 0px 30px;
-  border-bottom: 1px dashed rgba(187, 252, 90, 0.5)
+  border-bottom: 1px dashed rgba(48, 48, 152, 0.5)
   ;
   -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -319,7 +319,7 @@
   line-height:24px;
   font-weight:400;
   font-size:16px;
-  color: #ffffff;
+  color: #000000;
   text-transform:capitalize;
   text-align: left;
   transition:all 500ms ease;
@@ -1193,8 +1193,8 @@ div#offcanvasTop {
   transition: 0.3s;
 }
 .banner .owl-nav .owl-prev:hover, .owl-nav .owl-next:hover{
-  border: 1px solid #7FB432;
-  background: #7FB432;
+  border: 1px solid #2f2f96;
+  background: #2f2f96;
 }
 .banner .owl-nav .owl-prev {
   position: absolute;
@@ -1252,22 +1252,22 @@ div#offcanvasTop {
   color: #1245f8;
 }
 .icon-i-03{
-  color: #7fb432;
+  color: #2f2f96;
 }
 .icon-i-04{
   color: #ec4a4e;
 }
 .features-icon-1 {
-  background: rgba(235, 147, 9, 0.1);
+  background: rgba(18, 69, 248, 0.1);
 }
 .features-icon-2{
   background: rgba(18, 69, 248, 0.1)
 }
 .features-icon-3{
-  background: rgba(127, 180, 50, 0.1);
+  background: rgba(18, 69, 248, 0.1);
 }
 .features-icon-4{
-  background: rgba(236, 74, 78, 0.1);
+  background: rgba(18, 69, 248, 0.1);
   margin-bottom: 10px;
 }
 .features-info a{
@@ -1444,7 +1444,7 @@ div#offcanvasTop {
   border-radius: 50%;
   font-size: 18px;
   text-align: center;
-  background: #7FB432;
+  background: #2f2f96;
   opacity: 0;
   visibility: hidden;
 }
@@ -1804,7 +1804,7 @@ button:focus:not(:focus-visible) {
   margin-bottom: 0;
 }
 .team-content:hover .team-info{
-  background: #7FB432;
+  background: #2f2f96;
 }
 .team-content:hover .team-info h6,.team-content:hover .team-info p{
   color: #ffffff;
@@ -2445,7 +2445,7 @@ footer.main__footer .f-love3{
   background: rgb(48, 48, 152);
 }
 .features-content-4{
-  background: #7FB432;
+  background: #2f2f96;
   border-radius: 0px 10px 10px 0px;
 }
 .home-two-features .features-info a {
@@ -2485,7 +2485,7 @@ footer.main__footer .f-love3{
   position: relative;
   padding: 50px 30px;
   width: 238px;
-  background: #7FB432;
+  background: #2f2f96;
   border-radius: 5px;
 }
 .about-left-wrapper-content img{
@@ -3286,10 +3286,10 @@ footer.main__footer .f-love3{
   text-align: center;
   border-radius: 50%;
   background: transparent;
-  border: 1px solid #7FB432;
+  border: 1px solid #2f2f96;
 }
 .home-3-banner .owl-theme .owl-dots .owl-dot.active span {
-  background: #7FB432;
+  background: #2f2f96;
   display: inline-block;
 }
 .home-3-banner .btn-1 {
@@ -3337,10 +3337,10 @@ margin-bottom: 50px;
   transition: 0.3s;
 }
 .home3-wrapper:hover{
-  border-bottom: 3px solid #7FB432;
+  border-bottom: 3px solid #2f2f96;
 }
 .home3-wrapper:hover i{
-  color: #7FB432;
+  color: #2f2f96;
 }
 .features3-icon{
   margin-bottom: 25px;
@@ -3406,7 +3406,7 @@ margin-bottom: 50px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #7FB432;
+  background: #2f2f96;
   z-index: -1;
 }
 .home3-about-image img{
@@ -3446,7 +3446,7 @@ margin-bottom: 50px;
   line-height: 77px;
   text-align: center;
   border-radius: 50%;
-  background: rgba(127, 180, 50, 0.1);
+  background: rgba(47, 47, 150, 0.1);
 }
 .home3-about-icon .svg-inline--fa{
   display: inline-block;
@@ -3454,7 +3454,7 @@ margin-bottom: 50px;
   text-align: center;
   padding: 5px 6px;
   border-radius: 50%;
-  border: 2px solid #7fb432;
+  border: 2px solid #2f2f96;
 }
 .home3-about-info{
   max-width: 212px;
@@ -3885,7 +3885,7 @@ about us
   transition: 0.3s;
 }
 .about-features .features-content:hover{
-  background: #7FB432;
+  background: #2f2f96;
 }
 .about-features .features-content:hover .features-icon i,.about-features .features-content:hover .features-info a, .about-features .features-content:hover .features-info p{
   color: #ffffff;
@@ -3894,7 +3894,7 @@ about us
   background: #ffffff;
 }
 .about-features .features-content-2 {
-  background: #7FB432;
+  background: #2f2f96;
 }
 .about-features .features-content-3 {
   background: #ffffff;
