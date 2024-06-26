@@ -21,7 +21,16 @@
 
 	});
 
-	
+	document.addEventListener("DOMContentLoaded", function() {
+		var dropdowns = document.querySelectorAll('.dropdown-toggle');
+		dropdowns.forEach(function(dropdown) {
+			dropdown.addEventListener('click', function(e) {
+				e.preventDefault();
+				var parent = this.parentElement;
+				parent.classList.toggle('open');
+			});
+		});
+	});
     // open form
     $(".open-button").click(function(){
 		$(".form-popup").show();
