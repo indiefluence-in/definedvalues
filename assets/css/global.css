@@ -619,11 +619,13 @@ span {
 }
 
 .news-btn{
-  background: #1F2230;
+  background: rgb(0, 0, 15);
+  color: white;;
 }
 
 .news-btn span{
-  background: rgb(48,48, 152);
+  background: rgb(255, 255, 255);
+  color:rgb(48,48,152)
 }
 
 .btn-3{
@@ -752,7 +754,7 @@ span {
 
 .common-title h6{
   position: relative;
-  color: #EB9309;
+  color: rgb(48,48, 152);
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 18px;
@@ -1101,6 +1103,7 @@ img {
   padding: 120px 0px;
 }
 .owl-nav {
+  color: #060000;
   display: none;
 }
 .scroll-top{

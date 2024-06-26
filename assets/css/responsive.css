@@ -398,6 +398,7 @@
       height: 750px;
     }
     .banner .btn-1{
+      z-index: 9999;
       padding: 20px 40px;
     }
     .banner-content-wrapper{
@@ -653,7 +654,8 @@
       margin-right: -300px;
     }
     .testimonial3-slider-content {
-      padding: 40px 40px 40px 30px;
+      padding:10px;
+      height: 400px;
     }
     .testimonial3-quetion {
       bottom: 30px;
@@ -1246,6 +1248,7 @@
     display: none;
   }
   .banner .btn-1 {
+    z-index: 999;
     padding: 10px 35px;
   }
   /* home one banner */
@@ -1736,7 +1739,7 @@
     padding: 12px 37px;
   }
   .testimonial3-slider-content {
-    padding: 40px 20px 40px 20px;
+    padding: 10px;
   }
   .testimonial3-reting ul {
     gap: 8px;

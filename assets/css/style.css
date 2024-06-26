@@ -821,7 +821,7 @@ div#mCSB_1_container{
 }
 
 .header_top {
-  background: #21293B;
+  background: rgb(6, 6, 42);
   height: 70px;
   display: flex;
   align-items: center;
@@ -1179,7 +1179,7 @@ div#offcanvasTop {
 }
 .banner .owl-nav .svg-inline--fa{
   display: inline-block;
-  color: #ffffff;
+  color: #0d0000;
   font-size: 20px;
 }
 .banner .owl-nav .owl-prev, .owl-nav .owl-next{
@@ -1188,7 +1188,7 @@ div#offcanvasTop {
   line-height: 65px;
   border-radius: 50%;
   text-align: center;
-  border: 1px solid #ffffff;
+  border: 1px solid #0d0000;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -1382,7 +1382,7 @@ div#offcanvasTop {
 }
 .about-right-mail .mail-icon i{
   font-size: 24px;
-  color: #EB9309;
+  color: rgb(48, 48, 152);
 }
 .about-right-mail .mail-info span{
   display: block;
@@ -2122,7 +2122,7 @@ a.hv-popup-link:after{
 
 .news_letter_left i{
   font-size: 58px;
-  color: rgba(0, 0, 0, 0.1);
+  color: rgb(0, 0, 11);
 }
 
 .news_letter_left h4{
@@ -2130,11 +2130,11 @@ a.hv-popup-link:after{
   font-size: 48px;
   line-height: 58px;
   letter-spacing: -0.02em;
-  color: #1F2230;
+  color:rgb(1, 1, 15);
 }
 
 .news_letter_left h4 span{
-  color: #EB9309;
+  color:rgb(48, 48, 152);
 }
 
 .news_letter .form-group{
@@ -2218,7 +2218,7 @@ footer.main__footer .f-love3{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(33, 41, 59, 0.9) 0%, #21293B 84.51%);
+  background: rgb(6, 6, 42);
 }
 .footer__logo {
   width: 180px;
@@ -2277,7 +2277,7 @@ footer.main__footer .f-love3{
 .copyright-container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .copyright-left{
   display: flex;
@@ -2550,30 +2550,7 @@ footer.main__footer .f-love3{
   z-index: -1;
   animation: bannerRound 35s linear infinite;
 }
-.about2-right-container::before {
-  content: "";
-  position: absolute;
-  right: -67px;
-  top: -40px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 2px solid #EB9309;
-  background: #EB9309;
-  animation: color1 1s linear infinite alternate-reverse;
-}
-.about2-right-container::after {
-  content: "";
-  position: absolute;
-  right: -92px;
-  bottom: 166px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  border: 2px solid rgb(127, 180, 50);
-  animation: color2 1s linear infinite alternate-reverse;
-  animation-delay: 1s;
-}
+
 /* home two about */
 
 /* recent project */
@@ -3560,6 +3537,7 @@ margin-bottom: 50px;
 
 /* team3 */
 .team3{
+  background-color: #f6f4f2;
   padding-top: 70px;
   padding-bottom: 120px;
 }
@@ -3623,7 +3601,7 @@ margin-bottom: 50px;
   height: 290px;
   background: #FFFFFF;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
-  padding: 40px 70px 40px 30px;
+  padding: 20px ;
   position: relative;
 }
 .testimonial3-quetion{
