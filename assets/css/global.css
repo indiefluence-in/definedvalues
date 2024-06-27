@@ -608,6 +608,8 @@ span {
     color: #060000 !important;
     z-index: 1;
     position: relative;
+    background-color: white;
+    border:1px solid rgb(48,48,152);
 }
 
 .btn-2{
