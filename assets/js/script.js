@@ -42,6 +42,15 @@
 	// open form
 	
 
+
+	function openModal(modalId) {
+		document.getElementById(modalId).style.display = "block";
+	}
+	
+	function closeModal(modalId) {
+		document.getElementById(modalId).style.display = "none";
+	}
+	
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.loader-wrap').length){
