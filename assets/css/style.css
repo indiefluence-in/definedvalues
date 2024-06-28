@@ -4549,6 +4549,35 @@ causes single
   color: rgb(48, 48, 152);
   margin-left: 5px;
 }
+.blog-page-content-new{
+  height: 200px;
+  padding: 30px;
+ 
+  border-radius: 0px 0px 10px 10px;
+}
+.blog-page-content-new p .svg-inline--fa{
+  margin-right: 10px;
+}
+.blog-page-content-new h6{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1F2230;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.blog-page-content-new a{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #1F2230;
+  margin-top: 20px;
+}
+.blog-page-content-new a .svg-inline--fa{
+  color: rgb(48, 48, 152);
+  margin-left: 5px;
+}
 /* blog page */
 
 /* blog single */
@@ -4674,6 +4703,12 @@ causes single
   .same-height {
     height: 140px;
   }
+  .blog-page-content-new{
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
+  }
 }
 @media (max-width: 380px) {
   .same-height {
@@ -4681,6 +4716,12 @@ causes single
   }
   .blog-page-content{
     height: 445px;
+  }
+  .blog-page-content-new{
+    height: 550px;
+    padding: 30px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
   }
  
 }
